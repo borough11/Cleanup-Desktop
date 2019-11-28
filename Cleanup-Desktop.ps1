@@ -50,7 +50,7 @@
   v0.2 - Change path to write transcript file to the archive folder rather than the script location "$transcriptRootFolder\$($MyInvocation.MyCommand.Name)-Transcript_$(Get-Random).log"
 
 .NOTES
-   Author: Steve Geall - Output Systems
+   Author: Steve Geall
      Date: October 2018
   Version: 0.2
   Updated: 18 Nov 2019
