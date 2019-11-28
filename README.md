@@ -25,11 +25,17 @@ PowerShell script: archives old items from Windows desktop
 
 ## SCHEDULE
   Run manually or run as a scheduled task
+  
   Run as a scheduled task to suit your archiving, example...
+  
   User Account: SYSTEM (Run With Highest Privileges)
-  Action: powershell.exe
-  Arguments: -executionpolicy remotesigned -File "C:\Scripts\Cleanup-Desktop\Cleanup-Desktop.ps1 -ArchiveFolder "C:\Steve\DesktopArchive" -DaysToKeep 30
-  Arguments: -executionpolicy remotesigned -File "C:\Scripts\Cleanup-Desktop\Cleanup-Desktop.ps1 -ArchiveFolder "C:\Steve\DesktopArchive" -DaysToKeep 30 -Exclude "test images",O365*,*.jpg
-  Arguments: -executionpolicy remotesigned -File "C:\Scripts\Cleanup-Desktop\Cleanup-Desktop.ps1 -ArchiveFolder "C:\Steve\DesktopArchive" -DaysToKeep 30 -Exclude *.jpg,"Office 365",test*
+  
+  Action: `powershell.exe`
+  
+  Arguments: `-executionpolicy remotesigned -File "C:\Scripts\Cleanup-Desktop\Cleanup-Desktop.ps1 -ArchiveFolder "C:\Steve\DesktopArchive" -DaysToKeep 30`
+  
+  Arguments: `-executionpolicy remotesigned -File "C:\Scripts\Cleanup-Desktop\Cleanup-Desktop.ps1 -ArchiveFolder "C:\Steve\DesktopArchive" -DaysToKeep 30 -Exclude "test images",O365*,*.jpg`
+  
+  Arguments: `-executionpolicy remotesigned -File "C:\Scripts\Cleanup-Desktop\Cleanup-Desktop.ps1 -ArchiveFolder "C:\Steve\DesktopArchive" -DaysToKeep 30 -Exclude *.jpg,"Office 365",test*`
 
 
