@@ -20,6 +20,7 @@ PowerShell script: archives old items from Windows desktop
 
 ## OUTPUT
   Host-written output to PowerShell session
+  
   Transcript file created in the archive folder location. These files are automatically purged (with
   confirmation), deleting those older than 90 days.
 
